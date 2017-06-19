@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WEB stranica - Josip Krišto</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="index.html">WEB stranica</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Bootstrap<span class="sr-only">(current)</span></a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="javascript.html">Javascript</a></li>
+        <li><a href="jquery.html">jQuery</a></li>
+        <li><a href="xml.html">XML</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><span class="navbar-text">autor: Josip Krišto</span></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 class="text-center">Bootstrap</h1>
+    </div>
+  </div>
+  <hr />
+</div>
+<div class="container">
+  <div class="well text-center"><h3><strong>Bootstrap</strong> je najpopularniji html, css, javascript framework koji se koristi kao baza za kreiranje responzivnih web stranica i web aplikacija.<br>
+  Poznat je još i pod imenom <strong>Twitter Bootstrap</strong></h3>.</div>
+  <hr />
+  <div class="row">
+    <div class="text-justify col-sm-4"> Sadrži CSS i HTML za tipografiju, ikone, oblike, dugmiće, tabele, rešetkasti (grid) prikaz, navigaciju, posebno napravljene jQuery dodatke i podršku za responzivni prikaz stranice (Prikaz na različitim velićinama uređaja). </div>
+    <div class="col-sm-4 text-justify"> Rešetkasti prikaz se sastoji od 12 kolona u jednom redu. To znači da je moguće stranicu podijeliti u 12 različitih kolona ili naprimjer na jednu kolonu koja zauzima prostor veličine 3 kolone plus druga kolona koja zauzima prostor 9 kolona.</div>
+    <div class="col-sm-4 text-justify"> Detaljnije informacije o Bootstrap frameworku možete pogledati na stranici <a href="http://getbootstrap.com/">http://getbootstrap.com/</a> </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Različiti primjeri rešetkastog i responzivnog prikaza Bootstrap frameworka.</h1>
+    </div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz sa 12 kolona na svim veličinama uređaja</strong></h4>
+  <code>.col-xs-1</code>
+  <hr />
+  <div class="row">
+    <div class="col-xs-1 text-center bordered-div">1</div>
+    <div class="col-xs-1 text-center bordered-div">2</div>
+    <div class="col-xs-1 text-center bordered-div">3</div>
+    <div class="col-xs-1 text-center bordered-div">4</div>
+    <div class="col-xs-1 text-center bordered-div">5</div>
+    <div class="col-xs-1 text-center bordered-div">6</div>
+    <div class="col-xs-1 text-center bordered-div">7</div>
+    <div class="col-xs-1 text-center bordered-div">8</div>
+    <div class="col-xs-1 text-center bordered-div">9</div>
+    <div class="col-xs-1 text-center bordered-div">10</div>
+    <div class="col-xs-1 text-center bordered-div">11</div>
+    <div class="col-xs-1 text-center bordered-div">12</div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz sa 4 kolone na svim veličinama uređaja</strong></h4>
+  <code>.col-xs-3</code>
+  <hr />
+  <div class="row">
+    <div class="col-xs-3 text-center bordered-div">1</div>
+    <div class="col-xs-3 text-center bordered-div">2</div>
+    <div class="col-xs-3 text-center bordered-div">3</div>
+    <div class="col-xs-3 text-center bordered-div">4</div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz sa 4 kolone na velikim uređajima koji se pretvara u 2 kolone na srednjim i manjim uređajima</strong></h4>
+  <code>.col-lg-3 .col-xs-6</code>
+  <hr />
+  <div class="row">
+    <div class="col-lg-3 col-xs-6 text-center bordered-div">1</div>
+    <div class="col-lg-3 col-xs-6 text-center bordered-div">2</div>
+    <div class="col-lg-3 col-xs-6 text-center bordered-div">3</div>
+    <div class="col-lg-3 col-xs-6 text-center bordered-div">4</div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz sa 4 kolone na velikim uređajima koji se pretvara u 2 kolone na srednjim pa u 1 kolonu na malim uređajima</strong></h4>
+  <code>.col-lg-3 .col-md-6 .col-sm-12</code>
+  <hr />
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12 text-center bordered-div">1</div>
+    <div class="col-lg-3 col-md-6 col-sm-12 text-center bordered-div">2</div>
+    <div class="col-lg-3 col-md-6 col-sm-12 text-center bordered-div">3</div>
+    <div class="col-lg-3 col-md-6 col-sm-12 text-center bordered-div">4</div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz jedne kolčone veličine 6 kolona na sredini na svim uređajima</strong></h4>
+  <code>.col-xs-6 .col-xs-offset-3</code>
+  <hr />
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-3 text-center bordered-div">1</div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz jedne kolone veličine 6 kolona na sredini koja prelazi u 12 kolona na srednjim ili manjim uređajima</strong></h4>
+  <code>.col-lg-6 .col-lg-offset-3 .col-xs-12</code>
+  <hr />
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3 col-xs-12 text-center bordered-div">1</div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Prikaz nekih javascript mogučnosti Bootstrap frameworka.</h1>
+    </div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz fotografija koristeći Bootstrap carousel javascript modul.</strong></h4>
+  <code> &lt;div id=&quot;carousel-example-generic&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt; <br>
+  <br>
+  &lt;ol class=&quot;carousel-indicators&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;<br>
+  &lt;/ol&gt;<br>
+  <br>
+  &lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;div class=&quot;item active&quot;&gt; &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;carousel-caption&quot;&gt; Prva slika &lt;/div&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;div class=&quot;item&quot;&gt; &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;carousel-caption&quot;&gt; Druga slika &lt;/div&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;div class=&quot;item&quot;&gt; &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;carousel-caption&quot;&gt; Treća slika &lt;/div&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+  &lt;/div&gt;<br>
+  <br>
+  &lt;a class=&quot;left carousel-control&quot; href=&quot;#carousel-example-generic&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt; &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt; &lt;/a&gt; &lt;a class=&quot;right carousel-control&quot; href=&quot;#carousel-example-generic&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt; &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt; &lt;/a&gt; <br>
+  <br>
+  &lt;/div&gt; </code>
+  <hr />
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active"> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNzc3OiM1NTUvdGV4dDpGaXJzdCBzbGlkZQpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1MmZhYjQ0MDkwIHRleHQgeyBmaWxsOiM1NTU7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6NDVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUyZmFiNDQwOTAiPjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjNzc3Ii8+PGc+PHRleHQgeD0iMzA4LjI5Njg3NSIgeT0iMjcwLjEiPkZpcnN0IHNsaWRlPC90ZXh0PjwvZz48L2c+PC9zdmc+" alt="...">
+            <div class="carousel-caption"> Prva slika </div>
+          </div>
+          <div class="item"> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNjY2OiM0NDQvdGV4dDpTZWNvbmQgc2xpZGUKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTJmYWI0MGUyZiB0ZXh0IHsgZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjQ1cHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1MmZhYjQwZTJmIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiIvPjxnPjx0ZXh0IHg9IjI2NC45NTMxMjUiIHk9IjI3MC4xIj5TZWNvbmQgc2xpZGU8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" alt="...">
+            <div class="carousel-caption"> Druga slika </div>
+          </div>
+          <div class="item"> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNTU1OiMzMzMvdGV4dDpUaGlyZCBzbGlkZQpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1MmZhYjNmMmMyIHRleHQgeyBmaWxsOiMzMzM7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6NDVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUyZmFiM2YyYzIiPjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjNTU1Ii8+PGc+PHRleHQgeD0iMjk4LjMyMDMxMjUiIHk9IjI3MC4xIj5UaGlyZCBzbGlkZTwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" alt="...">
+            <div class="carousel-caption"> Treća slika </div>
+          </div>
+        </div>
+        
+        <!-- Controls --> 
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    </div>
+  </div>
+  <hr />
+  <h4><strong>Sakrivanje i prikazivanje sadržaja</strong></h4>
+  <code>&lt;a class=&quot;btn btn-primary&quot; role=&quot;button&quot; data-toggle=&quot;collapse&quot; href=&quot;#collapseExample&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample&quot;&gt; Pomoću linka &lt;/a&gt;<br>
+  &lt;button class=&quot;btn btn-primary&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#collapseExample&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseExample&quot;&gt; Pomoću dugmića &lt;/button&gt;<br>
+  </code><code><br>
+  &lt;div class=&quot;collapse&quot; id=&quot;collapseExample&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&lt;div class=&quot;well&quot;&gt; Neki sadržaj &lt;/div&gt;<br>
+  &lt;/div&gt; </code>
+  <hr />
+  <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> Pomoću linka </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> Pomoću dugmića </button>
+  <br>
+  <br>
+  <div class="collapse" id="collapseExample">
+    <div class="well"> Neki sadržaj </div>
+  </div>
+  <hr />
+  <h4><strong>Prikaz napomena i natuknica</strong></h4>
+  <code>&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;left&quot; title=&quot;Natuknica lijevo&quot;&gt;Natuknica lijevo&lt;/button&gt;<br>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;Natuknica gore&quot;&gt;Natuknica gore&lt;/button&gt;<br>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;bottom&quot; title=&quot;Natuknica dolje&quot;&gt;Natuknica dolje&lt;/button&gt;<br>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;right&quot; title=&quot;Natuknica desno&quot;&gt;Natuknica desno&lt;/button&gt;</code>
+  <hr />
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Natuknica lijevo">Natuknica lijevo</button>
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Natuknica gore">Natuknica gore</button>
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Natuknica dolje">Natuknica dolje</button>
+      <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Natuknica desno">Natuknica desno</button>
+    </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="text-center col-md-6 col-md-offset-3">
+      <p>Copyright &copy; 2016 &middot; Sva prava pridržana &middot; Josip Krišto</p>
+    </div>
+  </div>
+  <hr />
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.2.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script> 
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+</script>
+</body>
+</html>
